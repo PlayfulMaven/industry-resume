@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.5.3)  5 SEP 2023 17:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.5.3)  5 SEP 2023 17:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -833,33 +833,33 @@ Package hyperref Info: Link coloring OFF on input line 96.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/n' in size <20.74> not avail
 able
 (Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on in
-put line 104.
+put line 105.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/n' will be
-(Font)              scaled to size 20.74pt on input line 104.
+(Font)              scaled to size 20.74pt on input line 105.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/n' in size <14.4> not availa
 ble
 (Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on in
-put line 104.
+put line 105.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/n' will be
-(Font)              scaled to size 14.4pt on input line 104.
+(Font)              scaled to size 14.4pt on input line 105.
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--104
+Underfull \hbox (badness 10000) in paragraph at lines 105--105
 []\T1/ClearSans-TLF/regular/n/14.4 Postdoctoral Re-search
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 104.
+(Font)              <7> on input line 105.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 104.
+(Font)              <5> on input line 105.
 LaTeX Font Info:    Trying to load font information for U+fontawesometwo on inp
-ut line 104.
+ut line 105.
 
 (C:\Users\Cade\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome\ufontawesome
 two.fd
 File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 )
 LaTeX Font Info:    Trying to load font information for T1+DejaVuSansMono-TLF o
-n input line 104.
+n input line 105.
 
 (C:\Users\Cade\AppData\Local\Programs\MiKTeX\tex/latex/dejavu\t1dejavusansmono-
 tlf.fd
@@ -867,25 +867,25 @@ File: T1DejaVuSansMono-TLF.fd 2011/06/01 Font definitions for T1/DejaVuSansMono
 -TLF.
 )
 LaTeX Font Info:    Font shape `T1/DejaVuSansMono-TLF/m/n' will be
-(Font)              scaled to size 8.6pt on input line 104.
+(Font)              scaled to size 8.6pt on input line 105.
 
-Overfull \hbox (0.66219pt too wide) in paragraph at lines 104--104
+Overfull \hbox (0.66219pt too wide) in paragraph at lines 105--105
 []\T1/ClearSans-TLF/regular/n/20.74 Programming Lan-
  []
 
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/n' in size <7> not available
 
 (Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on in
-put line 104.
+put line 105.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/n' will be
-(Font)              scaled to size 7.0pt on input line 104.
+(Font)              scaled to size 7.0pt on input line 105.
 
-Overfull \hbox (0.4pt too wide) in paragraph at lines 104--104
+Overfull \hbox (0.4pt too wide) in paragraph at lines 105--105
 [][]
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+ClearSans-TLF on in
-put line 115.
+put line 116.
 
 (C:\Users\Cade\AppData\Local\Programs\MiKTeX\tex/latex/clearsans\ts1clearsans-t
 lf.fd
@@ -895,31 +895,31 @@ ans-TLF.
 LaTeX Font Info:    Font shape `TS1/ClearSans-TLF/m/n' in size <10> not availab
 le
 (Font)              Font shape `TS1/ClearSans-TLF/regular/n' tried instead on i
-nput line 115.
+nput line 116.
 LaTeX Font Info:    Font shape `TS1/ClearSans-TLF/regular/n' will be
-(Font)              scaled to size 10.0pt on input line 115.
+(Font)              scaled to size 10.0pt on input line 116.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/n' in size <8> not available
 
 (Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on in
-put line 129.
+put line 130.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 129.
+(Font)              scaled to size 8.0pt on input line 130.
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--133
+Underfull \hbox (badness 10000) in paragraph at lines 129--134
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--143
+Underfull \hbox (badness 10000) in paragraph at lines 140--144
 
  []
 
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/it' in size <10> not availab
 le
 (Font)              Font shape `T1/ClearSans-TLF/regular/it' tried instead on i
-nput line 152.
+nput line 153.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/it' will be
-(Font)              scaled to size 10.0pt on input line 152.
+(Font)              scaled to size 10.0pt on input line 153.
 [1
 
 
@@ -948,7 +948,7 @@ Here is how much of TeX's memory you used:
  43561 multiletter control sequences out of 15000+600000
  549102 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,10n,118p,588b,781s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,10n,118p,588b,776s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Cade/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/intel/clearsans/ClearSans-Italic.pfb><C:/Users/C
 ade/AppData/Local/Programs/MiKTeX/fonts/type1/intel/clearsans/ClearSans-Regular
@@ -956,7 +956,7 @@ ade/AppData/Local/Programs/MiKTeX/fonts/type1/intel/clearsans/ClearSans-Regular
 aVuSansMono.pfb><C:/Users/Cade/AppData/Local/Programs/MiKTeX/fonts/type1/public
 /fontawesome/FontAwesome.pfb><C:/Users/Cade/AppData/Local/Programs/MiKTeX/fonts
 /type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on Data-Sci.pdf (1 page, 74802 bytes).
+Output written on Data-Sci.pdf (1 page, 74774 bytes).
 PDF statistics:
  61 PDF objects out of 1000 (max. 8388607)
  9 named destinations out of 1000 (max. 500000)

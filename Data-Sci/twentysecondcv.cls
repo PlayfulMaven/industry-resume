@@ -216,17 +216,17 @@
 	{%
 		\round{#1}{
 			\ifcase\value{colorCounter}%
-			mainwhite\or%
-			mainblue\or%
-			mainwhite\or%
-			mainblue\or%
-			mainwhite\or%
-			mainblue\or%
-			mainwhite\or%
-			mainblue\or%
- 			mainwhite\or%
-			mainblue\else%
-			mainwhite\fi%
+			white\or%
+			white\or%
+			white\or%
+			white\or%
+			white\or%
+			white\or%
+			white\or%
+			white\or%
+ 			white\or%
+			white\else%
+			white\fi%
 		}%
 	}%
 	\stepcounter{colorCounter}%
