@@ -14,8 +14,6 @@ Aside
 ================================================================================
 
 
-![Lijia Yu](https://avatars1.githubusercontent.com/u/895125?s=400&v=4){width=80%}
-
 
 Contact Info {#contact}
 --------------------------------------------------------------------------------
@@ -45,36 +43,6 @@ Cade Abrams {#title}
 ### Summary
 
 Fill this **in!**
-
-
-Education {data-icon=graduation-cap data-concise=true}
---------------------------------------------------------------------------------
-
-### Lander University
-
-B.S. in Exercise Science
-
-Greenwood, South Carolina
-
-2017
-
-### University of South Carolina
-
-M.A.T. in Physical Education
-
-Columbia, South Carolina
-
-2019
-
-### University of South Carolina
-
-PhD emphasis in Motor Behavior
-
-Columbia, South Carolina
-
-2022
-
-Thesis: Elucidating the interdependence of motor and cognitive development and performance
 
 
 Experience {data-icon=suitcase}
@@ -107,47 +75,35 @@ Columbia, South Carolina
 - Automated data processing with custom R scripts, saving 42 hours across 8 data collections.
 - Parsed thousands of data points, extracting custom indices to establish longitudinal markers for motor and cognitive performance in ROTC Cadets.
 
-
-
-Teaching Experience {data-icon=chalkboard-teacher}
+Certifications {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
 
-### Introduction to R Language for Beginners.
 
-Instructor of R and Data Mining Training Courses at SupStat Inc.
-
-Beijing, China
-
-2014
-
-### Computational Biology and Bioinformatics.
-
-Teaching assistant of GBS CB2-201 courses at UAB
-
-AL, USA
-
-2016 - 2017
-
-
-Selected Publications and Posters {data-icon=file}
+Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
 
-### Genetic and epigenetic signals are found predictive to the distribution of intra-individual divergence of alternative splicing.
+### Lander University
 
-Poster for 2013 International Conference of Genomics
+B.S. in Exercise Science
 
-Qingdao, China
+Greenwood, South Carolina
 
-2014
+2017
 
-**Yu L**, Chen B, Zhang Z.
+### University of South Carolina
 
-### ESCRT-0 complex modulates Rbf mutant cell survival by regulating Rhomboid endosomal trafficking and EGFR signaling.
+M.A.T. in Physical Education
 
-J Cell Sci. 2016 May 15;129(10):2075-84.
+Columbia, South Carolina
 
-N/A
+2019
 
-2016 
+### University of South Carolina
 
-Sheng Z, **Yu L**, Zhang T, Pei X, Li X, Zhang Z and Du W. 
+PhD emphasis in Motor Behavior
+
+Columbia, South Carolina
+
+2022
+
+Thesis: Elucidating the interdependence of motor and cognitive development and performance
