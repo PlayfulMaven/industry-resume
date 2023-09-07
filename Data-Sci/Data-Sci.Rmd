@@ -17,40 +17,32 @@ editor_options:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+
 library(vitae)
+library(here)
+library(tidyverse)
 ```
 
-# Some stuff about me
-
- * I poisoned myself doing research.
- * I was the first woman to win a Nobel prize
- * I was the first person and only woman to win a Nobel prize in two different sciences.
-
-# Education
-
 ```{r}
-library(tibble)
-tribble(
-  ~ Degree, ~ Year, ~ Institution, ~ Where,
-  "Informal studies", "1889-91", "Flying University", "Warsaw, Poland",
-  "Master of Physics", "1893", "Sorbonne Université", "Paris, France",
-  "Master of Mathematics", "1894", "Sorbonne Université", "Paris, France"
-) %>% 
-  detailed_entries(Degree, Year, Institution, Where)
+exp <- read.csv(here("data", "exp.csv"))
 ```
 
-# Nobel Prizes
+
+# Experience
+
+\medskip
 
 ```{r}
-tribble(
-  ~Year, ~Type, ~Desc,
-  1903, "Physics", "Awarded for her work on radioactivity with Pierre Curie and Henri Becquerel",
-  1911, "Chemistry", "Awarded for the discovery of radium and polonium"
-) %>% 
-  brief_entries(
-    glue::glue("Nobel Prize in {Type}"),
-    Year, 
-    Desc
+exp %>% 
+  filter(str_detect(keywords, "data-sci")) %>% 
+  arrange(desc(Start)) %>%
+  detailed_entries(
+    what = Title,
+    with = Company,
+    when = Dates,
+    where = Location,
+    why = Description,
+    .protect = T
   )
 ```
 
@@ -64,3 +56,19 @@ bibliography_entries("packages.bib") %>%
   arrange(desc(author$family), issued)
 ```
 
+# Education
+
+```{r}
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "PhD -- Motor Behavior", "2019 - 2022", 
+  "University of South Carolina", "Columbia, South Carolina",
+  
+  "MAT -- Physical Education", "2017 - 2019", "University of South Carolina", 
+  "Columbia, South Carolina",
+  
+  "BS -- Exercise Science", "2013 - 2017", "Lander University", 
+  "Greenwood, South Carolina",
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```

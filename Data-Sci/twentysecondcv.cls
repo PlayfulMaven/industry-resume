@@ -41,7 +41,7 @@
 %	 MISC CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\renewcommand{\bfseries}{\color{white}} % Make \textbf produce coloured text instead
+\renewcommand{\bfseries}{\color{black}} % Make \textbf produce coloured text instead
 \def\endfirstpage{\newpage\newgeometry{left=1.5cm,top=1.5cm,right=1.5cm,bottom=1.5cm}}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
@@ -72,7 +72,7 @@
 	\addtolength\TotalSectionLength{-\SectionTitleLength}% Subtract the section title width from the total width
 	\addtolength\TotalSectionLength{-2.22221pt}% Modifier to remove overfull box warning
 	\vspace{8pt}% Whitespace before the section title
-	{\color{white} \huge #1 \rule[0.15\baselineskip]{\TotalSectionLength}{1pt}}% Print the title and auto-width rule
+	{\color{white} \huge #1 \rule[0.25\baselineskip]{\TotalSectionLength}{1pt}}% Print the title and auto-width rule
 }
 
 % Define custom commands for CV info
@@ -147,7 +147,7 @@
 
 		%------------------------------------------------
 
-		{\raggedright\huge\textcolor{mainblue}{\textbf{\cvname}}}
+		{\raggedright\huge\textcolor{white}{{\cvname}}}
 
 		%------------------------------------------------
 
@@ -208,7 +208,7 @@
 
 % Command to create the rounded boxes around the first three letters of section titles
 \newcommand*\round[2]{%
-	\tikz[baseline=(char.base)]\node[anchor=north west, draw,rectangle, rounded corners, inner sep=1.6pt, minimum size=5.5mm, text height=3.6mm, fill=#2,#2,text=white](char){#1};%
+	\tikz[baseline=(char.base)]\node[anchor=north west, draw,rectangle, rounded corners, inner sep=1.6pt, minimum size=5.5mm, text height=3.6mm, fill=#2,#2,text=black](char){#1};%
 }
 
 \newcounter{colorCounter}
@@ -243,24 +243,24 @@
 	\par\vspace{.5\parskip}{%
 		\large\color{white} #1%
 	}
-	\par\vspace{.25\parskip}%
+	\par\vspace{.15\parskip}%
 }
 
 %----------------------------------------------------------------------------------------
 %	 LONG LIST ENVIRONMENT
 %----------------------------------------------------------------------------------------
 
-\setlength{\tabcolsep}{0pt}
+\setlength{\tabcolsep}{3pt}
 
 % New environment for the long list
 \newenvironment{twenty}{%
-	\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll}
+	\begin{tabular*}{0.8\textwidth}{@{\extracolsep{\fill}}l}
 }{%
 	\end{tabular*}
 }
 
 \newcommand{\twentyitem}[4]{%
-	#1&\parbox[t]{0.83\textwidth}{%
+	#1&\parbox[t]{0.8\textwidth}{%
 		\textbf{#2}%
 		\hfill%
 		{\footnotesize#3}\\%
@@ -272,17 +272,17 @@
 %	 SMALL LIST ENVIRONMENT
 %----------------------------------------------------------------------------------------
 
-\setlength{\tabcolsep}{0pt}
+\setlength{\tabcolsep}{3pt}
 
 % New environment for the small list
 \newenvironment{twentyshort}{%
-	\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll}
+	\begin{tabular*}{0.8\textwidth}{@{\extracolsep{\fill}}l}
 }{%
 	\end{tabular*}
 }
 
 \newcommand{\twentyitemshort}[2]{%
-	#1&\parbox[t]{0.83\textwidth}{%
+	#1&\parbox[t]{0.8\textwidth}{%
 		\textbf{#2}%
 	}\\
 }

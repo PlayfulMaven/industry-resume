@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------------------
 #  	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 #----------------------------------------------------------------------------------------
-\documentclass[hidelinks,10pt,a4paper,]{twentysecondcv}
+\documentclass[hidelinks,11pt,a4paper,]{twentysecondcv}
 
 
 # Right before "Some Stuff About Me" section
@@ -12,3 +12,11 @@
 \skillstext{{tidyverse/},{NumPy/},{Jupyter Notebooks/},{SPSS/},{R Markdown/}}
 
 \makeprofile % Print the sidebar
+
+
+# Change 0.7 to 1 in lines that begin the experience section
+\begin{twenty}
+\twentyitem{Aug 2022 - Present}{Postdoctoral Research Fellow}{University of South Carolina}{\empty\begin{minipage}{0.7\textwidth}%
+  
+  # and 
+  \twentyitem{Aug 2019 - Aug 2022}{Doctoral Graduate Assistant}{University of South Carolina}{\empty\begin{minipage}{0.7\textwidth}%

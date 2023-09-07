@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.5.3)  5 SEP 2023 17:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.5.3)  7 SEP 2023 16:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -869,23 +869,35 @@ File: T1DejaVuSansMono-TLF.fd 2011/06/01 Font definitions for T1/DejaVuSansMono
 LaTeX Font Info:    Font shape `T1/DejaVuSansMono-TLF/m/n' will be
 (Font)              scaled to size 8.6pt on input line 105.
 
+Overfull \hbox (6.00005pt too wide) in paragraph at lines 105--105
+[][] 
+ []
+
+
 Overfull \hbox (0.66219pt too wide) in paragraph at lines 105--105
 []\T1/ClearSans-TLF/regular/n/20.74 Programming Lan-
  []
 
-LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/n' in size <7> not available
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.125 \end{minipage}}
+                     
+? 
+LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/it' in size <10> not availab
+le
+(Font)              Font shape `T1/ClearSans-TLF/regular/it' tried instead on i
+nput line 125.
+LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/it' will be
+(Font)              scaled to size 10.0pt on input line 125.
+LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/n' in size <8> not available
 
 (Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on in
-put line 105.
+put line 125.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/n' will be
-(Font)              scaled to size 7.0pt on input line 105.
-
-Overfull \hbox (0.4pt too wide) in paragraph at lines 105--105
-[][]
- []
-
+(Font)              scaled to size 8.0pt on input line 125.
 LaTeX Font Info:    Trying to load font information for TS1+ClearSans-TLF on in
-put line 116.
+put line 125.
 
 (C:\Users\Cade\AppData\Local\Programs\MiKTeX\tex/latex/clearsans\ts1clearsans-t
 lf.fd
@@ -895,31 +907,59 @@ ans-TLF.
 LaTeX Font Info:    Font shape `TS1/ClearSans-TLF/m/n' in size <10> not availab
 le
 (Font)              Font shape `TS1/ClearSans-TLF/regular/n' tried instead on i
-nput line 116.
+nput line 125.
 LaTeX Font Info:    Font shape `TS1/ClearSans-TLF/regular/n' will be
-(Font)              scaled to size 10.0pt on input line 116.
-LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/n' in size <8> not available
+(Font)              scaled to size 10.0pt on input line 125.
 
-(Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on in
-put line 130.
-LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 130.
+Overfull \hbox (52.91995pt too wide) in paragraph at lines 125--125
+[]$[]$ 
+ []
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--134
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.132 \end{minipage}}
+                     
+? 
 
+Underfull \hbox (badness 1838) in paragraph at lines 132--132
+[]\T1/ClearSans-TLF/regular/n/10 Managed, cleaned, and cre-ated pre-dic-tive mo
+d-els for lon-gi-tu-di-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--144
-
+Overfull \hbox (52.91995pt too wide) in paragraph at lines 132--132
+[]$[]$ 
  []
 
-LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/it' in size <10> not availab
-le
-(Font)              Font shape `T1/ClearSans-TLF/regular/it' tried instead on i
-nput line 153.
-LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/it' will be
-(Font)              scaled to size 10.0pt on input line 153.
+
+Overfull \hbox (3.00002pt too wide) in alignment at lines 117--133
+[]
+ []
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.156 ...lina}{Columbia, South Carolina\par\empty}
+                                                  
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.157 ...lina}{Columbia, South Carolina\par\empty}
+                                                  
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.158 ...ity}{Greenwood, South Carolina\par\empty}
+                                                  
+? 
+
+Overfull \hbox (3.00002pt too wide) in alignment at lines 155--159
+[]
+ []
+
 [1
 
 
@@ -942,23 +982,22 @@ Package rerunfilecheck Info: File `Data-Sci.out' has not changed.
  )
 (\end occurred when \ifnum on line 31 was incomplete) 
 Here is how much of TeX's memory you used:
- 23521 strings out of 476315
- 439144 string characters out of 5787669
- 1874068 words of memory out of 5000000
- 43561 multiletter control sequences out of 15000+600000
- 549102 words of font info for 49 fonts, out of 8000000 for 9000
+ 23475 strings out of 476315
+ 438208 string characters out of 5787669
+ 1875068 words of memory out of 5000000
+ 43517 multiletter control sequences out of 15000+600000
+ 543236 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,10n,118p,588b,776s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,11n,118p,588b,776s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Cade/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/intel/clearsans/ClearSans-Italic.pfb><C:/Users/C
 ade/AppData/Local/Programs/MiKTeX/fonts/type1/intel/clearsans/ClearSans-Regular
 .pfb><C:/Users/Cade/AppData/Local/Programs/MiKTeX/fonts/type1/public/dejavu/Dej
 aVuSansMono.pfb><C:/Users/Cade/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/fontawesome/FontAwesome.pfb><C:/Users/Cade/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on Data-Sci.pdf (1 page, 74774 bytes).
+/fontawesome/FontAwesome.pfb>
+Output written on Data-Sci.pdf (1 page, 67509 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
- 9 named destinations out of 1000 (max. 500000)
+ 55 PDF objects out of 1000 (max. 8388607)
+ 8 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,153 @@
+---
+title: "Cade Abrams's resume"
+author: Cade Abrams
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    self_contained: false
+# uncomment this line to produce HTML and PDF in RStudio:
+#knit: pagedown::chrome_print
+---
+
+Aside
+================================================================================
+
+
+![Lijia Yu](https://avatars1.githubusercontent.com/u/895125?s=400&v=4){width=80%}
+
+
+Contact Info {#contact}
+--------------------------------------------------------------------------------
+
+- <i class="fa fa-envelope"></i> lijia.yu@outlook.com
+- <i class="fa fa-github"></i> [github.com/yulijia](https://github.com/yulijia)
+- <i class="fa fa-phone"></i> +1 000-000-0000
+- For more information, please contact me via email.
+
+
+Skills {#skills}
+--------------------------------------------------------------------------------
+
+- Experienced in statistical analysis, statistical learning models, and optimization methods.
+
+- Full experience with next generation sequencing data analysis.
+
+- Highly skilled in R, Bash, Perl, Python, LaTeX
+
+
+Main
+================================================================================
+
+Cade Abrams {#title}
+--------------------------------------------------------------------------------
+
+### Summary
+
+Fill this **in!**
+
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+### Lander University
+
+B.S. in Exercise Science
+
+Greenwood, South Carolina
+
+2017
+
+### University of South Carolina
+
+M.A.T. in Physical Education
+
+Columbia, South Carolina
+
+2019
+
+### University of South Carolina
+
+PhD emphasis in Motor Behavior
+
+Columbia, South Carolina
+
+2022
+
+Thesis: Elucidating the interdependence of motor and cognitive development and performance
+
+
+Experience {data-icon=suitcase}
+--------------------------------------------------------------------------------
+
+### Postdoctoral Research Fellow
+
+University of South Carolina
+
+Columbia, South Carolina
+
+2022 - Present
+
+
+- Conducted advanced statistical analyses and data wrangling in R for academic manuscripts related to early childhood motor and cognitive development.
+- Applied innovative data processing techniques, enhancing sensitivity to developmental changes, resulting in 1 peer-reviewed manuscript (in-review) and an international conference presentation.
+- Collaborated with cross-functional teams to conduct statistical analyses, optimize data processing, and efficiently manage data for ongoing research projects.
+- Managed project workflows on GitHub, optimizing research processes.
+
+
+### Doctoral Graduate Assistant
+
+University of South Carolina
+
+Columbia, South Carolina
+
+2019 - 2022
+
+- Managed, cleaned, and created predictive models for longitudinal participant data, leading to 5 peer-reviewed publications and 6 international presentations. 
+- Automated data processing with custom R scripts, saving 42 hours across 8 data collections.
+- Parsed thousands of data points, extracting custom indices to establish longitudinal markers for motor and cognitive performance in ROTC Cadets.
+
+
+
+Teaching Experience {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+
+### Introduction to R Language for Beginners.
+
+Instructor of R and Data Mining Training Courses at SupStat Inc.
+
+Beijing, China
+
+2014
+
+### Computational Biology and Bioinformatics.
+
+Teaching assistant of GBS CB2-201 courses at UAB
+
+AL, USA
+
+2016 - 2017
+
+
+Selected Publications and Posters {data-icon=file}
+--------------------------------------------------------------------------------
+
+### Genetic and epigenetic signals are found predictive to the distribution of intra-individual divergence of alternative splicing.
+
+Poster for 2013 International Conference of Genomics
+
+Qingdao, China
+
+2014
+
+**Yu L**, Chen B, Zhang Z.
+
+### ESCRT-0 complex modulates Rbf mutant cell survival by regulating Rhomboid endosomal trafficking and EGFR signaling.
+
+J Cell Sci. 2016 May 15;129(10):2075-84.
+
+N/A
+
+2016 
+
+Sheng Z, **Yu L**, Zhang T, Pei X, Li X, Zhang Z and Du W. 
