@@ -7,10 +7,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <meta name="author" content="Cade Abrams" />
-    <meta name="date" content="2023-09-07" />
+    <meta name="date" content="2023-09-08" />
     <title>Cade Abrams’s resume</title>
 
-    
+            <!-- dynamically load mathjax for compatibility with self-contained -->
+    <script>
+    (function() {
+      // Retrieve previous config object if defined
+      window.PagedConfig = window.PagedConfig || {};
+      let beforePaged = PagedConfig.before;
+      window.PagedConfig.before = async () => {
+        if (beforePaged) await beforePaged();
+        return new Promise((resolve, reject) => {
+          var script = document.createElement("script");
+          script.type = "text/javascript";
+          var src = `https://mathjax.rstudio.com/latest/MathJax.js` + "?config=TeX-MML-AM_CHTML";
+          if (location.protocol !== "file:" && /^https?:/.test(src))
+            src = src.replace(/^https?:/, '');
+          script.src = src;
+          window.MathJax = {
+            AuthorInit: () => {
+              MathJax.Hub.Register.StartupHook("Begin", () => {
+                MathJax.Hub.Queue(resolve);
+              });
+            }
+          };
+          document.getElementsByTagName("head")[0].appendChild(script);
+        });
+      };
+    })();
+    </script>
+        
         <link href="Data-Scientist_files/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
         <link href="Data-Scientist_files/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
         <link href="Data-Scientist_files/paged-0.20.1/css/resume.css" rel="stylesheet" />
@@ -18,6 +45,8 @@
         <script src="Data-Scientist_files/paged-0.20.1/js/paged.js"></script>
         <script src="Data-Scientist_files/paged-0.20.1/js/hooks.js"></script>
     
+        <link rel="stylesheet" href="css/custom_resume.css" type="text/css" />
+        <link rel="stylesheet" href="css/styles_html.css" type="text/css" />
     
   </head>
   <body>
@@ -27,19 +56,42 @@
 <div id="contact" class="section level2">
 <h2>Contact Info</h2>
 <ul>
-<li><i class="fa fa-envelope"></i> <a href="mailto:lijia.yu@outlook.com" class="email">lijia.yu@outlook.com</a></li>
-<li><i class="fa fa-github"></i> <a href="https://github.com/yulijia">github.com/yulijia</a></li>
-<li><i class="fa fa-phone"></i> +1 000-000-0000</li>
+<li><i class="fa fa-envelope"></i> <a href="mailto:cade4420@gmail.com" class="email">cade4420@gmail.com</a></li>
+<li><i class="fa fa-github"></i> <a href="https://github.com/Tcabrams44">github.com/Tcabrams44</a></li>
+<li><i class="fa fa-linkedin"></i> <a href="https://www.linkedin.com/in/cade-abrams-phd">cade-abrams-phd</a></li>
 <li>For more information, please contact me via email.</li>
 </ul>
 </div>
 <div id="skills" class="section level2">
 <h2>Skills</h2>
 <ul>
-<li><p>Experienced in statistical analysis, statistical learning models, and optimization methods.</p></li>
-<li><p>Full experience with next generation sequencing data analysis.</p></li>
-<li><p>Highly skilled in R, Bash, Perl, Python, LaTeX</p></li>
+<li>R</li>
+<li>Python</li>
+<li>Markdown</li>
+<li>Statistical Analysis</li>
+<li>Data Cleaning</li>
+<li>Data Wrangling</li>
+<li>Version Control</li>
 </ul>
+<div id="commonly-used-libraries" class="section level4">
+<h4>Commonly Used Libraries</h4>
+<ul>
+<li>tidyverse <span class="math inline">\(\cdot\)</span> gggplot2 <span class="math inline">\(\cdot\)</span> Hmisc <span class="math inline">\(\cdot\)</span> pandas <span class="math inline">\(\cdot\)</span> NumPy <span class="math inline">\(\cdot\)</span> matplotlib</li>
+</ul>
+</div>
+</div>
+<div id="education" class="section level2" data-icon="graduation-cap" data-concise="true">
+<h2>Education</h2>
+<p><strong>BS in Exercise Science</strong></p>
+<p>Lander University<br />
+2017</p>
+<p><strong>MAT in Physical Education</strong></p>
+<p>University of South Carolina
+2019</p>
+<p><strong>PhD emphasis in Motor Behavior</strong></p>
+<p>University of South Carolina
+2022</p>
+<p><span class="math inline">\(\cdot\)</span> Subspecialties in: <strong>Statistics</strong> and <strong>Cognitive Neuroscience</strong></p>
 </div>
 </div>
 <div id="main" class="section level1">
@@ -48,18 +100,19 @@
 <h2>Cade Abrams</h2>
 <div id="summary" class="section level3">
 <h3>Summary</h3>
-<p>Fill this <strong>in!</strong></p>
+<p>I am an experienced researcher and data scientist with expertise in cleaning, analyzing, and managing datasets and translating technical knowledge to guide upper management decision making.</p>
+<p>I am passionate about solving problems and delivering insights through leveraging analytical techniques - such as building predictive models. Trained as an interdisciplinary scientist, I am able to derive meaning from data and deploy robust solutions that inform decisions.</p>
 </div>
 </div>
 <div id="experience" class="section level2" data-icon="suitcase">
 <h2>Experience</h2>
-<div id="postdoctoral-research-fellow" class="section level3">
-<h3>Postdoctoral Research Fellow</h3>
+<div id="postdoctoral-research-fellow-data-scientist" class="section level3">
+<h3>Postdoctoral Research Fellow – Data Scientist</h3>
 <p>University of South Carolina</p>
 <p>Columbia, South Carolina</p>
 <p>2022 - Present</p>
 <ul>
-<li>Conducted advanced statistical analyses and data wrangling in R for academic manuscripts related to early childhood motor and cognitive development.</li>
+<li>Conducted advanced statistical analyses and data wrangling in R for academic manuscripts.</li>
 <li>Applied innovative data processing techniques, enhancing sensitivity to developmental changes, resulting in 1 peer-reviewed manuscript (in-review) and an international conference presentation.</li>
 <li>Collaborated with cross-functional teams to conduct statistical analyses, optimize data processing, and efficiently manage data for ongoing research projects.</li>
 <li>Managed project workflows on GitHub, optimizing research processes.</li>
@@ -71,32 +124,59 @@
 <p>Columbia, South Carolina</p>
 <p>2019 - 2022</p>
 <ul>
-<li>Managed, cleaned, and created predictive models for longitudinal participant data, leading to 5 peer-reviewed publications and 6 international presentations.</li>
-<li>Automated data processing with custom R scripts, saving 42 hours across 8 data collections.</li>
-<li>Parsed thousands of data points, extracting custom indices to establish longitudinal markers for motor and cognitive performance in ROTC Cadets.</li>
+<li>Collaborated on data management, cleaning, and predictive modeling for a 4-year project, resulting in 5 publications and 6 international presentations.</li>
+<li>Realized a 42-hour time savings across 8 data collections through automated data processing with custom R scripts.</li>
+<li>Developed custom data indices, facilitating actionable insights for ROTC Cadet training programs.</li>
 </ul>
 </div>
 </div>
-<div id="education" class="section level2" data-icon="graduation-cap" data-concise="true">
-<h2>Education</h2>
-<div id="lander-university" class="section level3">
-<h3>Lander University</h3>
-<p>B.S. in Exercise Science</p>
-<p>Greenwood, South Carolina</p>
-<p>2017</p>
+<div id="select-projects" class="section level2" data-icon="code" data-concise="true">
+<h2>Select Projects</h2>
+<div id="d-model-of-motor-and-cognitive-solutions" class="section level3">
+<h3>3-D Model of Motor and Cognitive Solutions</h3>
+<p><i class="fa fa-github"></i> <a href="https://github.com/Tcabrams44/complexity-dual-task-conceptual">here</a></p>
+<p>N/A</p>
+<p>2023</p>
+<div class="concise">
+<ul>
+<li>Python</li>
+<li>Jupyter Notebook</li>
+<li>Data Visualization</li>
+</ul>
 </div>
-<div id="university-of-south-carolina" class="section level3">
-<h3>University of South Carolina</h3>
-<p>M.A.T. in Physical Education</p>
-<p>Columbia, South Carolina</p>
-<p>2019</p>
 </div>
-<div id="university-of-south-carolina-1" class="section level3">
-<h3>University of South Carolina</h3>
-<p>PhD emphasis in Motor Behavior</p>
-<p>Columbia, South Carolina</p>
-<p>2022</p>
-<p>Thesis: Elucidating the interdependence of motor and cognitive development and performance</p>
+<div id="beyond-traditional-approaches-examining-the-impact-of-skipping-with-pax-on-post-error-slowing-in-rural-preschoolers" class="section level3">
+<h3>Beyond Traditional Approaches: Examining the Impact of SKIPping with PAX on Post-Error Slowing in Rural Preschoolers</h3>
+<p><i class="fa fa-link"></i> <a href="https://osf.io/jyzpx/?view_only=24a908b0a4c842b2843f43a4a37bfd73">here</a></p>
+<p>N/A</p>
+<p>2023</p>
+<ul>
+<li>This project examined the impacts of an integrated intervention on traditional and contemporary estimates of post-error slowing in rural preschoolers.</li>
+</ul>
+<div class="concise">
+<ul>
+<li>R</li>
+<li>Innovative Data Processing Techniques</li>
+<li>Data Visualization</li>
+</ul>
+</div>
+</div>
+<div id="custom-r-scripts-for-processing-and-scoring-army-combat-fitness-test-results" class="section level3">
+<h3>Custom R Scripts for Processing and Scoring Army Combat Fitness Test Results</h3>
+<p><i class="fa fa-github"></i> <a href="https://osf.io/jyzpx/?view_only=24a908b0a4c842b2843f43a4a37bfd73">here</a></p>
+<p>N/A</p>
+<p>2020</p>
+<ul>
+<li>Originally created in 2020, the data associated with this project is confidential
+and therefore these customized functions had to be published to GitHub separately.</li>
+</ul>
+<div class="concise">
+<ul>
+<li>R</li>
+<li>Innovative Data Processing Techniques</li>
+<li>Data Visualization</li>
+</ul>
+</div>
 </div>
 </div>
 </div>

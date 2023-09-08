@@ -6,6 +6,8 @@ output:
   pagedown::html_resume:
     # set it to true for a self-contained HTML page but it'll take longer to render
     self_contained: false
+    css: ['css/custom_resume.css', 'css/styles_html.css',  'resume']
+    #css: ['css/custom_resume.css', 'css/styles_pdf.css', 'resume']
 # uncomment this line to produce HTML and PDF in RStudio:
 #knit: pagedown::chrome_print
 ---
@@ -13,26 +15,47 @@ output:
 Aside
 ================================================================================
 
-
-
 Contact Info {#contact}
 --------------------------------------------------------------------------------
 
-- <i class="fa fa-envelope"></i> lijia.yu@outlook.com
-- <i class="fa fa-github"></i> [github.com/yulijia](https://github.com/yulijia)
-- <i class="fa fa-phone"></i> +1 000-000-0000
+- <i class="fa fa-envelope"></i> cade4420@gmail.com
+- <i class="fa fa-github"></i> [github.com/Tcabrams44](https://github.com/Tcabrams44)
+- <i class="fa fa-linkedin"></i> [cade-abrams-phd](https://www.linkedin.com/in/cade-abrams-phd)
 - For more information, please contact me via email.
 
 
 Skills {#skills}
 --------------------------------------------------------------------------------
+- R
+- Python
+- Markdown
+- Statistical Analysis
+- Data Cleaning
+- Data Wrangling
+- Version Control
 
-- Experienced in statistical analysis, statistical learning models, and optimization methods.
+#### Commonly Used Libraries
+-  tidyverse $\cdot$ gggplot2 $\cdot$ Hmisc $\cdot$ pandas $\cdot$ NumPy $\cdot$ matplotlib
 
-- Full experience with next generation sequencing data analysis.
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
 
-- Highly skilled in R, Bash, Perl, Python, LaTeX
+**BS in Exercise Science**
 
+Lander University  
+2017
+
+**MAT in Physical Education**
+
+University of South Carolina 
+2019
+
+**PhD emphasis in Motor Behavior**
+
+University of South Carolina 
+2022
+
+$\cdot$ Subspecialties in: **Statistics** and **Cognitive Neuroscience**
 
 Main
 ================================================================================
@@ -42,13 +65,14 @@ Cade Abrams {#title}
 
 ### Summary
 
-Fill this **in!**
+I am an experienced researcher and data scientist with expertise in cleaning, analyzing, and managing datasets and translating technical knowledge to guide upper management decision making.
 
+I am passionate about solving problems and delivering insights through leveraging analytical techniques - such as building predictive models. Trained as an interdisciplinary scientist, I am able to derive meaning from data and deploy robust solutions that inform decisions.
 
 Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
 
-### Postdoctoral Research Fellow
+### Postdoctoral Research Fellow -- Data Scientist
 
 University of South Carolina
 
@@ -56,12 +80,10 @@ Columbia, South Carolina
 
 2022 - Present
 
-
-- Conducted advanced statistical analyses and data wrangling in R for academic manuscripts related to early childhood motor and cognitive development.
+- Conducted advanced statistical analyses and data wrangling in R for academic manuscripts.
 - Applied innovative data processing techniques, enhancing sensitivity to developmental changes, resulting in 1 peer-reviewed manuscript (in-review) and an international conference presentation.
 - Collaborated with cross-functional teams to conduct statistical analyses, optimize data processing, and efficiently manage data for ongoing research projects.
 - Managed project workflows on GitHub, optimizing research processes.
-
 
 ### Doctoral Graduate Assistant
 
@@ -71,39 +93,52 @@ Columbia, South Carolina
 
 2019 - 2022
 
-- Managed, cleaned, and created predictive models for longitudinal participant data, leading to 5 peer-reviewed publications and 6 international presentations. 
-- Automated data processing with custom R scripts, saving 42 hours across 8 data collections.
-- Parsed thousands of data points, extracting custom indices to establish longitudinal markers for motor and cognitive performance in ROTC Cadets.
+- Collaborated on data management, cleaning, and predictive modeling for a 4-year project, resulting in 5 publications and 6 international presentations. 
+- Realized a 42-hour time savings across 8 data collections through automated data processing with custom R scripts.
+- Developed custom data indices, facilitating actionable insights for ROTC Cadet training programs.
 
-Certifications {data-icon=graduation-cap data-concise=true}
+Select Projects {data-icon=code data-concise=true}
 --------------------------------------------------------------------------------
+### 3-D Model of Motor and Cognitive Solutions
+<i class="fa fa-github"></i> [here](https://github.com/Tcabrams44/complexity-dual-task-conceptual)
 
+N/A
 
-Education {data-icon=graduation-cap data-concise=true}
---------------------------------------------------------------------------------
+2023
 
-### Lander University
+:::concise
+- Python
+- Jupyter Notebook
+- Data Visualization
+:::
 
-B.S. in Exercise Science
+### Beyond Traditional Approaches: Examining the Impact of SKIPping with PAX on Post-Error Slowing in Rural Preschoolers
+<i class="fa fa-link"></i> [here](https://osf.io/jyzpx/?view_only=24a908b0a4c842b2843f43a4a37bfd73)
 
-Greenwood, South Carolina
+N/A
 
-2017
+2023
 
-### University of South Carolina
+- This project examined the impacts of an integrated intervention on traditional and contemporary estimates of post-error slowing in rural preschoolers.
 
-M.A.T. in Physical Education
+:::concise
+- R
+- Innovative Data Processing Techniques
+- Data Visualization
+:::
 
-Columbia, South Carolina
+### Custom R Scripts for Processing and Scoring Army Combat Fitness Test Results
+<i class="fa fa-github"></i> [here](https://osf.io/jyzpx/?view_only=24a908b0a4c842b2843f43a4a37bfd73)
 
-2019
+N/A
 
-### University of South Carolina
+2020
 
-PhD emphasis in Motor Behavior
+- Originally created in 2020, the data associated with this project is confidential
+and therefore these customized functions had to be published to GitHub separately.
 
-Columbia, South Carolina
-
-2022
-
-Thesis: Elucidating the interdependence of motor and cognitive development and performance
+:::concise
+- R
+- Innovative Data Processing Techniques
+- Data Visualization
+:::
