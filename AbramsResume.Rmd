@@ -9,15 +9,20 @@ output:
     css: ['css/custom_resume.css', 'css/styles_html.css',  'resume']
     #css: ['css/custom_resume.css', 'css/styles_pdf.css', 'resume']
 # uncomment this line to produce HTML and PDF in RStudio:
-#knit: pagedown::chrome_print
+knit: pagedown::chrome_print
 ---
+```{css, echo=FALSE}
+#title h1 {
+  text-transform: unset;
+}
+```
 
 Aside
 ================================================================================
 
 Contact Info {#contact}
 --------------------------------------------------------------------------------
-- <i class="fa fa-mobile"></i> +1(975)-205-1234
+- <i class="fa fa-mobile"></i> +1(234)-567-8910
 - <i class="fa fa-envelope"></i> cade4420@gmail.com
 - <i class="fa fa-github"></i> [github.com/Tcabrams44](https://github.com/Tcabrams44)
 - <i class="fa fa-linkedin"></i> [cade-abrams-phd](https://www.linkedin.com/in/cade-abrams-phd)
@@ -33,37 +38,44 @@ Skills {#skills}
 - Data Cleaning
 - Data Wrangling
 - Version Control
+- Experimental Design
 
 #### Commonly Used Libraries
--  tidyverse $\cdot$ gggplot2 $\cdot$ Hmisc $\cdot$ pandas $\cdot$ NumPy $\cdot$ matplotlib
+- **R**  
+
+-  broom $\cdot$ conflicted $\cdot$ dplyr $\cdot$ ggplot2 $\cdot$ Hmisc $\cdot$ lubridate $\cdot$ magrittr $\cdot$ purr $\cdot$ readr $\cdot$ stringr $\cdot$ tibble  
+
+- **Python**  
+
+-  glob $\cdot$ ipywidgets $\cdot$ Matplotlib $\cdot$ NumPy $\cdot$ os $\cdot$ pandas $\cdot$ PsychoPy $\cdot$ random $\cdot$ shutil 
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
 
 **BS in Exercise Science**
 
-Lander University  
-Aug 2017
+- Lander University  
+- Aug 2017
 
 **MAT in Physical Education**
 
-University of South Carolina 
-Aug 2019
+- University of South Carolina 
+- Aug 2019
 
 **PhD emphasis in Motor Behavior**
 
-University of South Carolina  
-Dec 2022
+- University of South Carolina  
+- Dec 2022
 
-$\cdot$ Subspecialties in: **Statistics** and **Cognitive Neuroscience**
+- Subspecialties in: **Statistics** and **Cognitive Neuroscience**
 
 Main
 ================================================================================
 
-Cade Abrams {#title}
+Cade Abrams, PhD {#title}
 --------------------------------------------------------------------------------
 
-As an accomplished data scientist and researcher, I excel in cleaning, analyzing, and managing data sets. I specialize in translating technical insights into strategic guidance for executive decision-making. My passion lies in solving complex problems by leveraging advanced analytical techniques, including predictive models Trained as an interdisciplinary scientist, I consistently derive actionable insights from data, delivering robust solutions that drive informed decisions.
+As an accomplished data scientist and researcher, I excel in cleaning, analyzing, and managing data sets to derive technical insights to advance research and inform decisions. My passion lies in solving complex problems by leveraging advanced analytical techniques, including predictive models. Trained as an interdisciplinary scientist and educator, I am skilled in effectively communicating complex results to technical and non-technical audiences.
 
 Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
@@ -76,10 +88,16 @@ Columbia, South Carolina
 
 Aug 2022 - Present
 
-- Conducted advanced statistical analyses using R, including regression modeling and hypothesis testing, to extract meaningful insights for academic manuscripts.
-- Applied innovative data processing techniques, enhancing sensitivity to developmental changes resulting effect sizes 3 times larger than traditional techniques.
-- Collaborated with cross-functional teams to conduct statistical analyses, optimize data processing, and ensure the success of ongoing research projects.
-- Managed project workflows effectively on GitHub, streamlining research processes through version control and collaborative tools.
+- Conduct advanced statistical analyses using R, including regression modeling 
+and hypothesis testing, to extract meaningful insights for academic manuscripts.
+- Apply innovative data processing techniques, enhancing sensitivity to 
+developmental changes resulting in effect sizes 3 times larger than traditional 
+techniques.
+- Collaborate with cross-functional and international teams to conduct 
+statistical analyses, optimize data processing, and ensure the success of 
+ongoing research projects.
+- Managed project workflows effectively on GitHub, streamlining research 
+processes through version control and collaborative tools.
 
 ### Doctoral Graduate Assistant
 
@@ -89,9 +107,14 @@ Columbia, South Carolina
 
 Aug 2019 - Aug 2022
 
-- Collaboratively contributed to a 4-year project through data management, cleaning, and predictive modeling to advance motor skill assessment resulting in 5 publications and 12 presentations.
-- Saved 42 hours across 8 data collections with custom R functions, improving efficiency and reducing data entry errors.
-- Developed custom data indices for ROTC, yielding actionable insights, optimizing training, and achieving a 97.3% pass rate on the ACFT.
+- Collaboratively managed to a 4-year project through data collection, 
+management, cleaning, and predictive modeling to advance motor skill and
+cognitive assessments resulting in 5 publications and 12 presentations.
+- Saved 42 manual hours across 8 data collections with custom R functions, 
+designed to improve data processing efficiency and reduce data entry errors.
+- Developed custom data indices for ROTC yielding actionable insights to 
+optimize training, resulting in a 16% increase in ACFT pass rates across 1.5 
+years (~135 Cadets in sample).
 
 Select Projects {data-icon=code data-concise=true}
 --------------------------------------------------------------------------------
@@ -102,12 +125,14 @@ N/A
 
 2023
 
-**12 words or less!, 4 Keywords**
+Python code creates 3 visual diagrams, simplifying complex motor-cognitive 
+relations for non-technical audiences.
 
 :::concise
-- Python
+- Interdisciplinary Research
 - Jupyter Notebook
 - Data Visualization
+- Creativity
 :::
 
 ### Beyond Traditional Approaches: Examining the Impact of SKIPping with PAX on Post-Error Slowing in Rural Preschoolers
@@ -115,29 +140,32 @@ N/A
 
 N/A
 
-2023
+May 2023
 
 
-**12 words or less!, 4 Keywords**
+Open Science Framework project for statistical analysis of cutting-edge data 
+processing methods in an academic manuscript.
 
 :::concise
-- R
-- Innovative Data Processing Techniques
+- Quantitative Analysis
+- Data Interpretation
 - Data Visualization
+- Statistical Inference
 :::
 
 ### Custom R Script for Processing and Scoring Army Combat Fitness Test Results
-<i class="fa fa-github"></i> [here](https://osf.io/jyzpx/?view_only=24a908b0a4c842b2843f43a4a37bfd73)
+<i class="fa fa-github"></i> [https://github.com/Tcabrams44/ACFT-Custom-Script](https://github.com/Tcabrams44/ACFT-Custom-Script)
 
 N/A
 
-2020
+May 2021
 
-**12 words or less!, 4 Keywords**
+R functions score raw ACFT event data, including times, accurately and 
+efficiently.
 
 :::concise
-- R
-- Object-Oriented Programming
-- Custom Functions
+- Anonymous Functions
+- Automation
+- Data Wrangling
 - Data Processing
 :::
