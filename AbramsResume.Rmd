@@ -9,7 +9,7 @@ output:
     css: ['css/custom_resume.css', 'css/styles_html.css',  'resume']
     #css: ['css/custom_resume.css', 'css/styles_pdf.css', 'resume']
 # uncomment this line to produce HTML and PDF in RStudio:
-knit: pagedown::chrome_print
+#knit: pagedown::chrome_print
 ---
 ```{css, echo=FALSE}
 #title h1 {
@@ -39,6 +39,7 @@ Skills {#skills}
 - Data Wrangling
 - Version Control
 - Experimental Design
+- Microsoft Excel
 
 #### Commonly Used Libraries
 - **R**  
