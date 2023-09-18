@@ -97,7 +97,7 @@ techniques.
 - Collaborate with cross-functional and international teams to conduct 
 statistical analyses, optimize data processing, and ensure the success of 
 ongoing research projects.
-- Managed project workflows effectively on GitHub, streamlining research 
+- Manage project workflows effectively on GitHub, streamlining research 
 processes through version control and collaborative tools.
 
 ### Doctoral Graduate Assistant
@@ -108,7 +108,7 @@ Columbia, South Carolina
 
 Aug 2019 - Aug 2022
 
-- Collaboratively managed to a 4-year project through data collection, 
+- Collaboratively managed a 4-year project through data collection, 
 management, cleaning, and predictive modeling to advance motor skill and
 cognitive assessments resulting in 5 publications and 12 presentations.
 - Saved 42 manual hours across 8 data collections with custom R functions, 
@@ -124,7 +124,7 @@ Select Projects {data-icon=code data-concise=true}
 
 N/A
 
-2023
+Summer 2023
 
 Python code creates 3 visual diagrams, simplifying complex motor-cognitive 
 relations for non-technical audiences.
@@ -141,7 +141,7 @@ relations for non-technical audiences.
 
 N/A
 
-May 2023
+Spring 2023
 
 
 Open Science Framework project for statistical analysis of cutting-edge data 
@@ -151,7 +151,7 @@ processing methods in an academic manuscript.
 - Quantitative Analysis
 - Data Interpretation
 - Data Visualization
-- Statistical Inference
+- Hypothesis Testing
 :::
 
 ### Custom R Script for Processing and Scoring Army Combat Fitness Test Results
@@ -159,7 +159,7 @@ processing methods in an academic manuscript.
 
 N/A
 
-May 2021
+Spring 2021
 
 R functions score raw ACFT event data, including times, accurately and 
 efficiently.
