@@ -28,6 +28,25 @@ Contact Info {#contact}
 - <i class="fa fa-linkedin"></i> [cade-abrams-phd](https://www.linkedin.com/in/cade-abrams-phd)
 - For more information, please contact me via email.
 
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+**BS in Exercise Science**
+
+- Lander University  
+- Aug 2017
+
+**MAT in Physical Education**
+
+- University of South Carolina 
+- Aug 2019
+
+**PhD emphasis in Motor Behavior**
+
+- University of South Carolina  
+- Dec 2022
+
+- Subspecialties in: **Statistics** and **Cognitive Neuroscience**
 
 Skills {#skills}
 --------------------------------------------------------------------------------
@@ -49,26 +68,6 @@ Skills {#skills}
 - **Python**  
 
 -  glob $\cdot$ ipywidgets $\cdot$ Matplotlib $\cdot$ NumPy $\cdot$ os $\cdot$ pandas $\cdot$ PsychoPy $\cdot$ random $\cdot$ shutil 
-
-Education {data-icon=graduation-cap data-concise=true}
---------------------------------------------------------------------------------
-
-**BS in Exercise Science**
-
-- Lander University  
-- Aug 2017
-
-**MAT in Physical Education**
-
-- University of South Carolina 
-- Aug 2019
-
-**PhD emphasis in Motor Behavior**
-
-- University of South Carolina  
-- Dec 2022
-
-- Subspecialties in: **Statistics** and **Cognitive Neuroscience**
 
 Main
 ================================================================================

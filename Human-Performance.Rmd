@@ -1,0 +1,265 @@
+---
+title: "Cade Abrams's resume"
+author: Cade Abrams
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    self_contained: false
+    css: ['css/custom_resume.css', 'css/styles_html.css',  'resume']
+    #css: ['css/custom_resume.css', 'css/styles_pdf.css', 'resume']
+# uncomment this line to produce HTML and PDF in RStudio:
+knit: pagedown::chrome_print
+---
+```{css, echo=FALSE}
+#title h1 {
+  text-transform: unset;
+}
+```
+
+Aside
+================================================================================
+
+Contact Info {#contact}
+--------------------------------------------------------------------------------
+- <i class="fa fa-mobile"></i> +1(234)-567-8910
+- <i class="fa fa-envelope"></i> cade4420@gmail.com
+- <i class="fa fa-github"></i> [github.com/Tcabrams44](https://github.com/Tcabrams44)
+- <i class="fa fa-linkedin"></i> [cade-abrams-phd](https://www.linkedin.com/in/cade-abrams-phd)
+- For more information, please contact me via email.
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+**BS in Exercise Science**
+
+- Lander University  
+- Aug 2017
+
+**MAT in Physical Education**
+
+- University of South Carolina 
+- Aug 2019
+
+**PhD emphasis in Motor Behavior**
+
+- University of South Carolina 
+- Dec 2022  
+- Subspecialties in: **Statistics** and **Cognitive Neuroscience** 
+
+Skills {#skills}
+--------------------------------------------------------------------------------
+- R
+- Python
+- Statistical Analysis
+- Version Control
+- Experimental Design
+- Microsoft Excel
+- Training Methodology
+- Human Performance
+- Cognitive Neuroscience
+
+Main
+================================================================================
+
+Cade Abrams, PhD {#title}
+--------------------------------------------------------------------------------
+
+As an accomplished data scientist and human performance researcher, I excel in cleaning, analyzing, and managing data sets to derive technical insights to advance research and inform decisions. My passion lies in solving complex problems by leveraging advanced analytical techniques in the field of human performance. Trained as an interdisciplinary scientist and educator, I am skilled in effectively communicating complex results to technical and non-technical audiences.
+
+Experience {data-icon=suitcase}
+--------------------------------------------------------------------------------
+
+### Postdoctoral Research Fellow -- Data Scientist
+
+University of South Carolina
+
+Columbia, South Carolina
+
+Aug 2022 - Present
+
+- Conduct advanced statistical analyses using R, including regression modeling 
+and hypothesis testing, to extract meaningful insights for academic manuscripts.
+- Apply innovative data processing techniques, enhancing sensitivity to 
+developmental changes resulting in effect sizes 3 times larger than traditional 
+techniques.
+- Collaborate with cross-functional and international teams to conduct 
+statistical analyses, optimize data processing, and ensure the success of 
+ongoing research projects.
+- Manage project workflows effectively on GitHub, streamlining research 
+processes through version control and collaborative tools.
+
+### Doctoral Graduate Assistant
+
+University of South Carolina
+
+Columbia, South Carolina
+
+Aug 2019 - Aug 2022
+
+- Collaboratively managed a 4-year project through data collection, 
+management, cleaning, and predictive modeling to advance motor skill and
+cognitive assessments resulting in 5 publications and 12 presentations.
+- Saved 42 manual hours across 8 data collections with custom R functions, 
+designed to improve data processing efficiency and reduce data entry errors.
+- Developed custom data indices for ROTC yielding actionable insights to 
+optimize training, resulting in a 16% increase in ACFT pass rates across 1.5 
+years (~135 Cadets in sample).
+
+Consulting & Volunteer Work {data-icon=dumbbell}
+--------------------------------------------------------------------------------
+
+### Human Performance Consultant
+Arsenal Fitness
+
+Muncie, Indianna
+
+Oct 3 - Oct 19, 2022
+
+- Offered expert advice on optimizing physical military readiness, reducing injuries, and recruiting for a successful human performance program with Arsenal Fitness.
+
+### Strength and Conditioning Coach
+University of South Carolina Army ROTC
+
+Columbia, South Carolina
+
+Aug 2019 - May 2022
+
+- Collaborated with athletic trainers and Army ROTC Cadre to design and lead functional strength training programs to promote physical military readiness in 150+ Cadets.
+- Oversaw and educated groups of 2-5 interns to conduct human performance research and training.
+
+### Human Performance Consultant
+
+United States Army Physical Fitness School (USAPFS)
+
+Ft. Jackson, South Carolina
+
+Jun 14 - Jun 28, 2020
+
+- Audited 'Master Fitness Trainer Course' and provided expert insights to align instruction and content for peak performance.
+
+:::aside
+**Certifications**  
+
+- **Certified Strength and Conditioning Specialist (CSCS)**
+- 2018 -- Present  
+
+- **USA Weightlifting Level 1**  
+- 2022 -- Present
+:::
+
+### Physical Training Instructor
+
+Eau Claire High School
+
+Columbia, South Carolina
+
+Sep 2019 - Mar 2020
+
+- Developed and executed bi-weekly physical training regimen for 80 Navy Junior Reserve Officer Training Corps Cadets.
+
+Select Projects {data-icon=code data-concise=true}
+--------------------------------------------------------------------------------
+### 3-D Model of Motor and Cognitive Solutions
+<i class="fa fa-github"></i> [https://github.com/Tcabrams44/complexity-dual-task-conceptual](https://github.com/Tcabrams44/complexity-dual-task-conceptual)
+
+N/A
+
+Summer 2023
+
+Python code creates 3 visual diagrams, simplifying complex motor-cognitive 
+relations for non-technical audiences.
+
+:::concise
+- Interdisciplinary Research
+- Jupyter Notebook
+- Data Visualization
+- Creativity
+:::
+
+:::aside
+**Commonly Used Libraries**
+
+- **R**  
+
+-  broom $\cdot$ conflicted $\cdot$ dplyr $\cdot$ ggplot2 $\cdot$ Hmisc $\cdot$ lubridate $\cdot$ magrittr $\cdot$ purr $\cdot$ readr $\cdot$ stringr $\cdot$ tibble  
+
+- **Python**  
+
+-  glob $\cdot$ ipywidgets $\cdot$ Matplotlib $\cdot$ NumPy $\cdot$ os $\cdot$ pandas $\cdot$ PsychoPy $\cdot$ random $\cdot$ shutil 
+:::
+
+### Beyond Traditional Approaches: Examining the Impact of SKIPping with PAX on Post-Error Slowing in Rural Preschoolers
+<i class="fa fa-link"></i> [https://osf.io/jyzpx/?view_only=24a908b0a4c842b2843f43a4a37bfd73](https://osf.io/jyzpx/?view_only=24a908b0a4c842b2843f43a4a37bfd73)
+
+N/A
+
+Spring 2023
+
+
+Open Science Framework project for statistical analysis of cutting-edge data 
+processing methods in an academic manuscript.
+
+:::concise
+- Quantitative Analysis
+- Data Interpretation
+- Data Visualization
+- Hypothesis Testing
+:::
+
+
+### Custom R Script for Processing and Scoring Army Combat Fitness Test Results
+<i class="fa fa-github"></i> [https://github.com/Tcabrams44/ACFT-Custom-Script](https://github.com/Tcabrams44/ACFT-Custom-Script)
+
+N/A
+
+Spring 2021
+
+R functions score raw ACFT event data, including times, accurately and 
+efficiently.
+
+:::concise
+- Anonymous Functions
+- Automation
+- Data Wrangling
+- Data Processing
+:::
+
+
+Select Publications {data-icon=file}
+--------------------------------------------------------------------------------
+
+### The Functional Movement Screen and Self-reported Injury in Senior Military College Cadets
+
+In *Military Medicine*. (*Online*). Oxford University Press (OUP). [https://doi.org/10.1093/milmed/usad285](https://doi.org/10.1093/milmed/usad285) 
+
+N/A
+
+2023
+
+Hand, A.F., Hong, S., Pfiefer, C.F., Stodden, D.F., Haugen, K., Terlizzi, B.M.,
+**Abrams, T.C.**, Yee, K., Spalding, D., Dubina, M., Bellon, C.R., Grieve, G.L.,
+Sole, C.J., & Sacko, R.S.
+
+
+### The Relationship Between Functional Motor Competence and Performance on the Army Combat Fitness Test in Army Reserve Officer Training Corps Cadets
+
+In *Military Medicine*. *188* (7-8). Oxford University Press (OUP). [https://doi.org/10.1093/milmed/usab537](https://doi.org/10.1093/milmed/usab537) 
+
+N/A
+
+2022
+
+Terlizzi, B.M.,**Abrams, T.C.**, Sacko, R.S., Hand, A.F., Silvey, K., & Stodden, D.F.
+
+
+### The Potential Role of Functional Motor Competence to Promote Physical Military Readiness: A Developmental Perspective
+
+In *Military Medicine*. (No. 9-10; Vol. 186, pp. 242-247). Oxford University Press (OUP). [https://doi.org/10.1093/milmed/usab043](https://doi.org/10.1093/milmed/usab043) 
+
+N/A
+
+2021
+
+Silvey, K., Porter, J., Sacko, R.S., Hand, A.F., Terlizzi, B.M., **Abrams, T.C.**, & Stodden, D.F.
+
