@@ -76,8 +76,17 @@ Cade Abrams, PhD {#title}
 
 As an accomplished data scientist and researcher, I excel in cleaning, analyzing, and managing data sets to derive technical insights to advance research and inform decisions. My passion lies in solving complex problems by leveraging advanced analytical techniques, including predictive models. Trained as an interdisciplinary scientist and educator, I am skilled in effectively communicating complex results to technical and non-technical audiences.
 
-Experience {data-icon=suitcase}
+Experience {data-icon=business-time}
 --------------------------------------------------------------------------------
+### Data Scientist
+Booz Allen Hamilton
+
+Hybrid
+
+Nov 2023 - Present
+
+- Support clients by discovering data insights with data analysis, machine
+learning, pipeline building/automation, and dashboard building/design.
 
 ### Postdoctoral Research Fellow -- Data Scientist
 
@@ -115,6 +124,25 @@ designed to improve data processing efficiency and reduce data entry errors.
 optimize training, resulting in a 16% increase in ACFT pass rates across 1.5 
 years (~135 Cadets in sample).
 
+Consulting & Freelance Work {data-icon=chart-line}
+--------------------------------------------------------------------------------
+
+### Biostatistician
+Therabody
+
+Remote
+
+Oct 2023 - Present
+
+- Contribute to Therabody's evidence-based approach to product development by
+leveraging statistical insights to guide decisions on treatment protocols for
+Therabody products.
+- Collaborate remotely with cross-functional teams, translating statistical
+insights into actionable strategies for enhancing Therabody products.
+- Remain current on industry advancements, incorporating cutting-edge 
+statistical methodologies to continuously refine analyses for Therabody's unique
+needs.
+
 Select Projects {data-icon=code data-concise=true}
 --------------------------------------------------------------------------------
 ### 3-D Model of Motor and Cognitive Solutions
@@ -143,7 +171,7 @@ Spring 2023
 
 
 Open Science Framework project for statistical analysis of cutting-edge data 
-processing methods in an academic manuscript.
+processing methods resulting in an academic manuscript.
 
 :::concise
 - Quantitative Analysis
