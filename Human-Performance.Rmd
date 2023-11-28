@@ -9,7 +9,7 @@ output:
     css: ['css/custom_resume.css', 'css/styles_html.css',  'resume']
     #css: ['css/custom_resume.css', 'css/styles_pdf.css', 'resume']
 # uncomment this line to produce HTML and PDF in RStudio:
-knit: pagedown::chrome_print
+#knit: pagedown::chrome_print
 ---
 ```{css, echo=FALSE}
 #title h1 {
@@ -22,7 +22,7 @@ Aside
 
 Contact Info {#contact}
 --------------------------------------------------------------------------------
-- <i class="fa fa-mobile"></i> +1(864)-993-8064
+- <i class="fa fa-mobile"></i> +1(234)-576-8910
 - <i class="fa fa-envelope"></i> cade4420@gmail.com
 - <i class="fa fa-github"></i> [github.com/Tcabrams44](https://github.com/Tcabrams44)
 - <i class="fa fa-linkedin"></i> [cade-abrams-phd](https://www.linkedin.com/in/cade-abrams-phd)
