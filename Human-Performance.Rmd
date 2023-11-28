@@ -9,7 +9,7 @@ output:
     css: ['css/custom_resume.css', 'css/styles_html.css',  'resume']
     #css: ['css/custom_resume.css', 'css/styles_pdf.css', 'resume']
 # uncomment this line to produce HTML and PDF in RStudio:
-# knit: pagedown::chrome_print
+#knit: pagedown::chrome_print
 ---
 ```{css, echo=FALSE}
 #title h1 {
@@ -24,7 +24,7 @@ Contact Info {#contact}
 --------------------------------------------------------------------------------
 - <i class="fa fa-mobile"></i> +1(234)-576-8910
 - <i class="fa fa-envelope"></i> cade4420@gmail.com
-- <i class="fa fa-github"></i> [github.com/Tcabrams44](https://github.com/Tcabrams44)
+- <i class="fa fa-github"></i> [github.com/PlayfulMaven](https://github.com/PlayfulMaven)
 - <i class="fa fa-linkedin"></i> [cade-abrams-phd](https://www.linkedin.com/in/cade-abrams-phd)
 - For more information, please contact me via email.
 
@@ -161,7 +161,7 @@ Sep 2019 - Mar 2020
 Select Projects {data-icon=code data-concise=true}
 --------------------------------------------------------------------------------
 ### 3-D Model of Motor and Cognitive Solutions
-<i class="fa fa-github"></i> [https://github.com/Tcabrams44/complexity-dual-task-conceptual](https://github.com/Tcabrams44/complexity-dual-task-conceptual)
+<i class="fa fa-github"></i> [https://github.com/PlayfulMaven/complexity-dual-task-conceptual](https://github.com/PlayfulMaven/complexity-dual-task-conceptual)
 
 N/A
 
@@ -209,7 +209,7 @@ processing methods in an academic manuscript.
 
 
 ### Custom R Script for Processing and Scoring Army Combat Fitness Test Results
-<i class="fa fa-github"></i> [https://github.com/Tcabrams44/ACFT-Custom-Script](https://github.com/Tcabrams44/ACFT-Custom-Script)
+<i class="fa fa-github"></i> [https://github.com/PlayfulMaven/ACFT-Custom-Script](https://github.com/PlayfulMaven/ACFT-Custom-Script)
 
 N/A
 
