@@ -1,3 +1,3 @@
 # industry-resume
- This repo is for the generation of resumes to help me transition from academia to industry
-[Data-Science.pdf](https://github.com/Tcabrams44/industry-resume/files/13492107/Data-Science.pdf)
+This repo contains code that generates relevant resumes that helped me transition from academia to industry. I will continue to update this repo with my experience and new code. You can download and view my current resume
+[here](https://github.com/Tcabrams44/industry-resume/files/13492107/Data-Science.pdf)
