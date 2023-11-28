@@ -22,7 +22,7 @@ Aside
 
 Contact Info {#contact}
 --------------------------------------------------------------------------------
-- <i class="fa fa-mobile"></i> +1(234)-567-8910
+- <i class="fa fa-mobile"></i> +1(864)-993-8064
 - <i class="fa fa-envelope"></i> cade4420@gmail.com
 - <i class="fa fa-github"></i> [github.com/Tcabrams44](https://github.com/Tcabrams44)
 - <i class="fa fa-linkedin"></i> [cade-abrams-phd](https://www.linkedin.com/in/cade-abrams-phd)
@@ -76,7 +76,7 @@ University of South Carolina
 
 Columbia, South Carolina
 
-Aug 2022 - Present
+Aug 2022 - Nov 2023
 
 - Conduct advanced statistical analyses using R, including regression modeling 
 and hypothesis testing, to extract meaningful insights for academic manuscripts.
@@ -186,7 +186,7 @@ relations for non-technical audiences.
 
 - **Python**  
 
--  glob $\cdot$ ipywidgets $\cdot$ Matplotlib $\cdot$ NumPy $\cdot$ os $\cdot$ pandas $\cdot$ PsychoPy $\cdot$ random $\cdot$ shutil 
+-  glob $\cdot$ ipywidgets $\cdot$ Matplotlib $\cdot$ NumPy $\cdot$ os $\cdot$ pandas $\cdot$ PsychoPy $\cdot$ random $\cdot$ scikit-learn $\cdot$ shutil  
 :::
 
 ### Beyond Traditional Approaches: Examining the Impact of SKIPping with PAX on Post-Error Slowing in Rural Preschoolers
@@ -219,7 +219,7 @@ R functions score raw ACFT event data, including times, accurately and
 efficiently.
 
 :::concise
-- Anonymous Functions
+- Custom Functions
 - Automation
 - Data Wrangling
 - Data Processing
