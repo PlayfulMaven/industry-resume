@@ -22,7 +22,7 @@ Aside
 
 Contact Info {#contact}
 --------------------------------------------------------------------------------
-- <i class="fa fa-mobile"></i> +1(234)-576-8910
+- <i class="fa fa-mobile"></i> +1(234)-567-8910
 - <i class="fa fa-envelope"></i> cade4420@gmail.com
 - <i class="fa fa-github"></i> [github.com/PlayfulMaven](https://github.com/PlayfulMaven)
 - <i class="fa fa-linkedin"></i> [cade-abrams-phd](https://www.linkedin.com/in/cade-abrams-phd)
@@ -81,7 +81,7 @@ Experience {data-icon=business-time}
 ### Data Scientist
 Booz Allen Hamilton
 
-Hybrid
+On-Site
 
 Nov 2023 - Present
 
@@ -96,15 +96,15 @@ Columbia, South Carolina
 
 Aug 2022 - Nov 2023
 
-- Conduct advanced statistical analyses using R, including regression modeling 
+- Conducted advanced statistical analyses using R, including regression modeling 
 and hypothesis testing, to extract meaningful insights for academic manuscripts.
-- Apply innovative data processing techniques, enhancing sensitivity to 
+- Applied innovative data processing techniques, enhancing sensitivity to 
 developmental changes resulting in effect sizes 3 times larger than traditional 
 techniques.
-- Collaborate with cross-functional and international teams to conduct 
+- Collaborated with cross-functional and international teams to conduct 
 statistical analyses, optimize data processing, and ensure the success of 
 ongoing research projects.
-- Manage project workflows effectively on GitHub, streamlining research 
+- Managed project workflows effectively on GitHub, streamlining research 
 processes through version control and collaborative tools.
 
 ### Doctoral Graduate Assistant
