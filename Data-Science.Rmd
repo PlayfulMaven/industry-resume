@@ -74,19 +74,21 @@ Main
 Cade Abrams, PhD {#title}
 --------------------------------------------------------------------------------
 
-As an accomplished data scientist and researcher, I excel in cleaning, analyzing, and managing data sets to derive technical insights to advance research and inform decisions. My passion lies in solving complex problems by leveraging advanced analytical techniques, including predictive models. Trained as an interdisciplinary scientist and educator, I am skilled in effectively communicating complex results to technical and non-technical audiences.
+As an accomplished data scientist and researcher, I excel in cleaning, analyzing, and managing data sets to derive technical insights to advance research and inform decisions. My passion lies in solving complex problems by leveraging innovative methodologies and advanced analytical techniques. Trained as an interdisciplinary scientist and educator, I am skilled in effectively communicating complex results to technical and non-technical audiences.
 
 Experience {data-icon=business-time}
 --------------------------------------------------------------------------------
-### Data Scientist
+### Staff Data Scientist
 Booz Allen Hamilton
 
-On-Site
+Client Site
 
 Nov 2023 - Present
 
-- Support clients by discovering data insights with data analysis, machine
-learning, pipeline building/automation, and dashboard building/design.
+- Lead the exploration and implementation of a data solution resulting in direct cost savings of $265,000 per year for stakeholders.
+- Work directly with stakeholders to design and prototype data solutions that maximize adoption and efficacy for end-users by conducting interviews and incorporating user interface (UI) and user experience (UX) feedback.
+- Develop custom logic/scripts to ensure data quality and integrity by validating user inputs.
+- Provide on-going coaching of data topics (e.g., visualization, data mining, analytic techniques) to technical and non-technical audiences.
 
 ### Postdoctoral Research Fellow -- Data Scientist
 
@@ -135,13 +137,12 @@ Remote
 Oct 2023 - Present
 
 - Contribute to Therabody's evidence-based approach to product development by
-leveraging statistical insights to guide decisions on treatment protocols for
+leveraging statistical insights to guide decisions on current and future
 Therabody products.
 - Collaborate remotely with cross-functional teams, translating statistical
 insights into actionable strategies for enhancing Therabody products.
-- Remain current on industry advancements, incorporating cutting-edge 
-statistical methodologies to continuously refine analyses for Therabody's unique
-needs.
+- Lead Therabody Labs data pipeline development and robotic process automation initiatives to maximize return on investments and streamline workflows.
+- Mentor junior scientists at Therabody Labs in proper data management, analysis, and reporting techniques.
 
 Select Projects {data-icon=code data-concise=true}
 --------------------------------------------------------------------------------
